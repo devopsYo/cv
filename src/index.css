@@ -1,13 +1,169 @@
-body {
+html, body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  height: 62em;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body
+{
+  background-image: url("../public/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
+.containerCV
+{
+  border: 0.5em #e6f1f6 solid;
+  border-radius: 1em;
+  box-shadow: 0em 0em 3em black;
+  flex: 1;
+  width: 50em;
+  margin: 1em auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.headerCV
+{
+  display: flex;
+  flex-direction: row;   
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+}
+
+.titleHeaderCV h1
+{   
+  font-size: 1.6em;
+  color: #F0F8FF;
+  margin-block: 0.3em;
+}
+
+.titleHeaderCV h2
+{   
+  font-size: 1.2em;
+  text-align: center;
+  color: #cdd0c3;  
+  margin-block: 0em; 
+  border-bottom: 0.15em #cdd0c3 solid; 
+}
+
+div.headerCV img
+{
+  padding: 1em 1em;
+  border-radius: 50%;
+}
+
+.mainCV
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 5em;
+  flex: 5;
+}
+
+.part
+{
+  border: 0.5em #49b8b0 dashed;
+  border-radius: 0.5em;
+  background-color: #e6f1f6;
+  padding: 0.5em;
+  width: 20em;
+}
+
+.partTitle
+{
+  display: flex;
+  flex-direction: row;
+  border: 0.1em #4d5d53 solid;
+  border-radius: 2em;
+  background-color: #4d5d53;
+  color: #F0F8FF; 
+  padding: 0em 1em;
+}
+
+.icon svg
+{
+  vertical-align: middle;
+  padding-right: 0.5em;
+}
+
+.partTitle h3
+{  
+  width: 10em;   
+  font-size: 1em;   
+  margin-block: 0.2em;
+}
+
+.subPart
+{
+  padding: 0.5em 0.5em;
+}
+
+.subPartTitle
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+}
+
+.subPartTitle h4
+{     
+  font-size: 0.8em; 
+  margin-block: 0em;
+  font-weight: normal;
+}
+
+.subPartTitle > .subPartTitleFirst
+{
+  font-weight: bold;
+}
+
+.rating
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.stars
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.footerCV
+{
+  padding: 0.5em;
+  font-size: 1.1em;
+  border-top: 0.5em #F0F8FF solid;
+  border-radius: 0em 0em 0.5em 0.5em;
+  background-color: #cdd0c3;
+  color: #4d5d53;  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footerCVDetails
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.footerCVContact
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
