@@ -13,5 +13,14 @@ const Header = ({title, subTitle}) => {
     )
 }
 
+Header.defaultProps = {
+    title: 'Microsoft Corporationnds',
+    subTitle: 'Herzliya, Israel'
+}
+
+Header.propTypes = {
+    title: PropTypes.string.isRequired,
+    subTitle: PropTypes.string.isRequired
+}
 
 export default Header

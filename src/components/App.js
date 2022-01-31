@@ -153,7 +153,7 @@ const sectionList = [
 const App = () => {
     return (
         <>
-            <Header title='Microsoft Corporation' subTitle='Herzliya, Israel'/> 
+            <Header /> 
             <Main sections={sectionList}/>
             <Footer />
         </>
