@@ -7,7 +7,7 @@ const Section = ({ section }) => {
         <div className="part">
             <div className="partTitle icon">
                 <div>
-                    
+                    <FontAwesomeIcon icon={section.sectionIcon}/>
                 </div>
                 <h3>{section.sectionTitle}</h3>
             </div>
